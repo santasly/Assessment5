@@ -51,7 +51,7 @@ addform.addEventListener('submit', async (event) => {
 
 const getAllNotes = async () => {
   try {
-    const response = await fetch('http://localhost:4000/note/getAllNotes', {
+    const response = await fetch('http://localhost:4000/note/getAllnote', {
       headers: {
         'Accept': 'application/json',
         'Content-type': 'application/json'
